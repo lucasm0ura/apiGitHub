@@ -1,0 +1,42 @@
+{
+  "lib": {
+    "name": "bower-rails generated lib assets",
+    "dependencies": {
+      // "threex"      : "git@github.com:rharriso/threex.git",
+      // "gsvpano.js"  : "https://github.com/rharriso/GSVPano.js/blob/master/src/GSVPano.js"
+    }
+  },
+  "vendor": {
+    "name": "bower-rails generated vendor assets",
+    "dependencies": {
+      "angularjs-nvd3-directives": "git@github.com:brunoluigi/angularjs-nvd3-directives.git",
+      "angular-resource": "~1.3.1",
+      "angular-animate": "~1.3.1",
+      "angular-bootstrap": "~0.11.2",
+      "angular-google-maps": "~2.0.9",
+      "underscore": "~1.7.0",
+      "angular-i18n": "~1.3.2",
+      "eonasdan-bootstrap-datetimepicker": "~4.0.0",
+      "jquery.maskedinput": "~1.4.1",
+      "moment": "~2.9.0",
+      "bootstrap-select": "~1.6.4",
+      "jquery.maskMoney": "~1.4.1",
+      "jquery": "#2",
+      "jQuery.dotdotdot": "~1.7.3",
+      "jquery-icheck": "~1.0.2",
+      "modernizr": "~2.8.3",
+      "retina.js": "~1.2.0",
+      "slidebars": "~0.9.4",
+      "masonry": "latest",
+      "imagesloaded": "latest",
+      "infinite-scroll": "latest",
+      "angular-masonry-directive": "cf0c7a5f6a",
+      "fancybox": "~2.1.5",
+      "angular-loading-bar": "~0.7.1"
+    },
+    "resolutions": {
+      "d3": "~3.4.1",
+      "angular": "1.3.4"
+    }
+  }
+}

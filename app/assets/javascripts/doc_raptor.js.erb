@@ -1,0 +1,11 @@
+// DocRaptor worker waits until docraptorJavaScriptFinished() returns true
+var DOC_RAPTOR_READY = false;
+
+var docraptorJavaScriptFinished = function(){
+  return DOC_RAPTOR_READY;
+}
+
+// Ensure that it waits a few seconds before printing the page
+setTimeout(function(){
+  DOC_RAPTOR_READY = true;
+}, <%= ENV['DOCRAPTOR_DELAY'] || 30000 %>);

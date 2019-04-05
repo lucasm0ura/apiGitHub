@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  mm_id: 1
+  pos_tax_code: MyString
+  key_string: MyString
+  ligada: false
+  conteudo_samsung: false
+
+two:
+  mm_id: 1
+  pos_tax_code: MyString
+  key_string: MyString
+  ligada: false
+  conteudo_samsung: false

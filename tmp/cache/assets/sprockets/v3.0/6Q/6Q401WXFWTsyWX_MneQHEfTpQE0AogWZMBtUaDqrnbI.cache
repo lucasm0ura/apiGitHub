@@ -1,0 +1,9 @@
+I"ø(function() {
+  jQuery('.upload input[type="file"]').on('change', function(event, files, label) {
+    var file_name;
+    file_name = this.value.replace(/\\/g, '/').replace(/.*\//, '');
+    jQuery(this).prev().text(file_name);
+  });
+
+}).call(this);
+:ET

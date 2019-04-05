@@ -1,0 +1,42 @@
+<h1>Repositories Found</h1>
+<form class="" action="<%= get_repositories_path %>" method="post">
+  <button type="submit" name="button">Get Repositories</button>
+</form>
+
+
+<% unless !@repositories.nil? %>
+  <table>
+    <thead>
+      <th>#</th>
+      <th>Name</th>
+      <th>Full Name</th>
+      <th>Url</th>
+      <th>Description</th>
+      <th>Language</th>
+      <th>Stargazers</th>
+      <th>Forks</th>
+      <th>Open</th>
+      <th>Watchers</th>
+      <th>Login</th>
+      <th>Avatar</th>
+    </thead>
+    <tbody>
+      <% @repositories.each do |repository| %>
+        <tr>
+          <td><%= repository.id %></td>
+          <td style="text-align: center; width: 10%;"><%= repository.name %></td>
+          <td style="text-align: center; width: 10%;"><%= repository.full_name %></td>
+          <td style="text-align: center; width: 10%;"><a href="<%= repository.url %>">click here</td></a>
+          <td style="text-align: center; width: 10%;"><%= repository.description %></td>
+          <td style="text-align: center; width: 10%;"><%= repository.language %></td>
+          <td style="text-align: center; width: 10%;"><%= repository.stargazers_count %></td>
+          <td style="text-align: center; width: 10%;"><%= repository.forks %></td>
+          <td style="text-align: center; width: 10%;"><%= repository.open_issues %></td>
+          <td style="text-align: center; width: 10%;"><%= repository.watchers %></td>
+          <td style="text-align: center; width: 10%;"><b><%= repository.owner_login %></b></td>
+          <td style="text-align: center; width: 10%;"> <img src="<%= repository.owner_avatar_url %>" style="width: 100%;"></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+<% end %>

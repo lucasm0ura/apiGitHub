@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  week: MyString
+  pos_tax_code: MyString
+  coordinator: MyString
+  supervisor: MyString
+  promoter: MyString
+  data: MyString
+  horary: MyString
+  deleted_at: 2015-11-17 14:33:26
+
+two:
+  week: MyString
+  pos_tax_code: MyString
+  coordinator: MyString
+  supervisor: MyString
+  promoter: MyString
+  data: MyString
+  horary: MyString
+  deleted_at: 2015-11-17 14:33:26

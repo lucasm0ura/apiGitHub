@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  question_form: MyString
+  question_dash: MyString
+  criterion: MyString
+  points: MyString
+
+two:
+  question_form: MyString
+  question_dash: MyString
+  criterion: MyString
+  points: MyString

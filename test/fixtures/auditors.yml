@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  auditor: MyString
+  pos_tax_code: MyString
+  total_stores: 1
+  zero_door: 1
+  not_allowed: 1
+  average_visit_time: 2016-02-26 16:11:12
+  other_brands: 1
+
+two:
+  auditor: MyString
+  pos_tax_code: MyString
+  total_stores: 1
+  zero_door: 1
+  not_allowed: 1
+  average_visit_time: 2016-02-26 16:11:12
+  other_brands: 1
